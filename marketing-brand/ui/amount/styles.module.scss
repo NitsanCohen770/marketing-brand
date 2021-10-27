@@ -1,0 +1,23 @@
+.amount {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--font-family);
+  width: 157px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: var(--amount-background);
+  > span {
+    &:nth-child(2) {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &:last-child,
+    &:first-child {
+      color: var(--market);
+      font-size: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

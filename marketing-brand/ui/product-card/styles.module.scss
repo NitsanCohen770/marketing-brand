@@ -1,0 +1,15 @@
+.small {
+  border-radius: 10px;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.big {
+  border-radius: 15px;
+  width: 445px;
+  height: 445px;
+}
