@@ -5,5 +5,5 @@ export type AvatarProps = {
 };
 
 export function Avatar({ image }: AvatarProps) {
-  return <img src={image} alt="your avatar" className={styles.avatar} />;
+  return <img src={image} alt="your avatar" className={styles.avatars} />;
 }

@@ -3,11 +3,12 @@ import styles from './styles.module.scss';
 
 export function Amount() {
   const [currentAmount, setCurrentAmount] = useState<number>(0);
+
   const handleIncrement = () =>
     setCurrentAmount((prevAmount) => prevAmount + 1);
   const handleDecrement = () =>
     setCurrentAmount((prevAmount) => {
-      if (prevAmount <= 0) return 0;
+      if (prevAmount === 0) return 0;
       return prevAmount - 1;
     });
 
